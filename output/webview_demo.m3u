@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Webview检测" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/master/img/Webview检测.png" group-title="Webview(应用不提供内置源，请自行添加)",Webview检测(应用不提供内置源，请自行添加)
+webview://https://passer-by.com/browser

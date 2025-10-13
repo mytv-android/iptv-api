@@ -348,7 +348,7 @@ def convert_to_m3u(path=None, first_channel_name=None, data=None):
     """
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as file:
-            m3u_output = f'#EXTM3U x-tvg-url="{get_epg_url()}"\n'
+            m3u_output = f'#EXTM3U x-tvg-url="https://gitee.com/mytv-android/myepg/raw/master/output/epg.xml"\n'#"{get_epg_url()}"\n'
             current_group = None
             for line in file:
                 trimmed_line = line.strip()
