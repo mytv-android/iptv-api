@@ -38,3 +38,4 @@ live/bfgd/
 /udp/
 migu.188766.xyz
 bxtv.3a.ink
+catvod.com
